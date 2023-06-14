@@ -58,8 +58,8 @@ a {
 
 /* login box 기본 스타일링 */
 .login_box {
-  margin-left: 400px;
-  margin-top: 40px;
+  margin-left: 420px;
+  margin-top: 80px;
   background-color: #fff;
   width: 800px;
   height: 400px;
@@ -78,6 +78,7 @@ a {
   font-size: 30px;
   text-align: center;
   font-weight: 800;
+  z-index: -1;
 }
 
 .sns_icon {
