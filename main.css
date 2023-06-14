@@ -1,6 +1,7 @@
 /* body 스타일링 */
 body {
   font-family: "Noto Sans KR", sans-serif;
+  background-image: url(./assets/senior_banner.PNG);
 }
 
 /* nav 부분 스타일링 */
