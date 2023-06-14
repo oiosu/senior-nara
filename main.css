@@ -57,7 +57,7 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-right: 200px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .main_title .title .title_text {
