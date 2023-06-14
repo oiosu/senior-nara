@@ -65,4 +65,13 @@ body {
   text-align: center;
   font-weight: 800;
   color: rgb(254, 223, 96);
+  margin-bottom: 30px;
+}
+
+.main_title .title .title_small {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(244, 242, 234);
+  margin-top: 0px;
 }
