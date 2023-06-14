@@ -64,4 +64,5 @@ a {
   width: 800px;
   height: 450px;
   border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(238, 238, 238);
 }
