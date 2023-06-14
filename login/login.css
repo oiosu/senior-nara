@@ -2,6 +2,7 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
   background-color: #e8b470;
+  overflow: hidden;
 }
 
 a {
@@ -58,6 +59,8 @@ a {
 
 /* login box 기본 스타일링 */
 .login_box {
+  position: relative;
+  z-index: 1;
   margin-left: 420px;
   margin-top: 80px;
   background-color: #fff;
@@ -100,4 +103,12 @@ a {
 .sns_icon .apple img {
   width: 110px;
   margin: 20px;
+}
+
+/* img */
+.img_1 img {
+  position: relative;
+  z-index: 2;
+  bottom: 300px;
+  left: 80px;
 }
