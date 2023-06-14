@@ -105,10 +105,16 @@ a {
   margin: 20px;
 }
 
-/* img */
 .img_1 img {
   position: relative;
   z-index: 2;
   bottom: 300px;
   left: 80px;
+}
+
+.img_1 .img2 {
+  position: relative;
+  z-index: 2;
+  bottom: 300px;
+  left: 700px;
 }
