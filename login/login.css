@@ -57,3 +57,11 @@ a {
 }
 
 /* login box 기본 스타일링 */
+.login_box {
+  margin-left: 400px;
+  margin-top: 40px;
+  background-color: #fff;
+  width: 800px;
+  height: 450px;
+  border-radius: 20px;
+}
