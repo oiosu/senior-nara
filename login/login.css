@@ -105,16 +105,17 @@ a {
   margin: 20px;
 }
 
-.img_1 img {
+/* img 스타일링 */
+.grandmother {
   position: relative;
   z-index: 2;
   bottom: 300px;
-  left: 80px;
+  left: 70px;
 }
 
-.img_1 .img2 {
+.grandfather {
   position: relative;
   z-index: 2;
   bottom: 300px;
-  left: 800px;
+  left: 650px;
 }
