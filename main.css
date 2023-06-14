@@ -1,7 +1,8 @@
 /* body 스타일링 */
 body {
   font-family: "Noto Sans KR", sans-serif;
-  background-image: url(./assets/senior_banner.PNG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/senior_banner.PNG);
 }
 
 /* nav 부분 스타일링 */
