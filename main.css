@@ -51,3 +51,18 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
+
+/* MainPage Big Title */
+.main_title {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+.main_title .title .title_text {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(254, 223, 96);
+}
