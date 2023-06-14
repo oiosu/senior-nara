@@ -66,3 +66,10 @@ a {
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px rgb(238, 238, 238);
 }
+
+.login_box .login_title {
+  font-size: 19px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+}
