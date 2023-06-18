@@ -30,11 +30,23 @@
       <br />
       <div class="sns_id">간편하게 SNS ID로 시작하기</div>
       <div class="sns_icon">
-        <div class="kakao">
-          <a class="btn_open">
-            <img src="/assets/kakao-talk.png" alt="" />
-          </a>
+        <!-- popup -->
+        <!-- popup kakao -->
+        <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>LOGIN</h1>
+            <div class="center">
+              <div class="login_btn_kakao_1">카카오톡으로 간편로그인</div>
+              <div class="login_btn_kakao_2">다른 카카오계정으로 로그인</div>
+            </div>
+          </div>
         </div>
+        <div onclick="togglePopup()" class="kakao">
+          <img src="/assets/kakao-talk.png" alt="" />
+        </div>
+        <!--  -->
         <div class="naver">
           <a class="btn_open" href=""></a
           ><img src="/assets/letter-n.png" alt="" />

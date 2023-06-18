@@ -121,28 +121,78 @@ a {
 }
 
 /* POP */
-
-.pop_wrap {
+.popup .overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 0;
-  text-align: center;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
 }
-.pop_wrap:after {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  content: "";
-}
-.pop_wrap .pop_inner {
-  display: inline-block;
-  padding: 20px 30px;
+
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
   background: #fff;
-  width: 200px;
-  vertical-align: middle;
-  font-size: 15px;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.popup .close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.center {
+  display: inline-block;
+}
+
+.login_btn_kakao_1 {
+  background-color: #ffe552;
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.login_btn_kakao_2 {
+  background-color: #ffe552;
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 19px;
+  padding-top: 20px;
 }
