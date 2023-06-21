@@ -1,0 +1,24 @@
+.header {
+  padding-bottom: 48px;
+  box-sizing: border-box;
+
+  display: block;
+}
+
+.header_inner {
+  position: relative;
+  width: 743px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.lang {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.sel {
+  position: relative;
+}
