@@ -5,12 +5,31 @@
   display: block;
 }
 
-.header_inner {
+.header .header_inner {
   position: relative;
   width: 743px;
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
+}
+
+.header .logo {
+  display: inline-block;
+  margin-top: 108px;
+  vertical-align: top;
+  background-position: 0 -51px;
+  background-repeat: no-repeat;
+  width: 155px;
+  height: 30px;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
 }
 
 .lang {
