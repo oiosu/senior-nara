@@ -56,3 +56,15 @@ a {
   font-size: 18px;
   font-weight: 700;
 }
+
+/* main-box */
+.main-box {
+  position: relative;
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.main-box p {
+  font-size: 50px;
+  font-weight: 800;
+}
