@@ -67,4 +67,10 @@ a {
 .main-box p {
   font-size: 50px;
   font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.main-box span {
+  margin-top: 0;
+  font-size: 20px;
 }
