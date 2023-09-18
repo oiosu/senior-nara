@@ -1,0 +1,58 @@
+/* body 스타일링 */
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* nav 부분 스타일링 */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 1600px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.nav img {
+  width: 200px;
+  margin-right: 600px;
+}
+
+.nav .nav_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.nav .nav_btn .btn_1 {
+  margin-top: 30px;
+  background-color: rgb(254, 223, 96);
+  border-radius: 40px;
+  width: 170px;
+  height: 60px;
+  margin-right: 40px;
+}
+
+.nav .nav_btn .btn_1 p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav .nav_btn .btn_2 {
+  margin-top: 30px;
+  background-color: rgb(254, 223, 96);
+  border-radius: 40px;
+  width: 170px;
+  height: 60px;
+}
+
+.nav .nav_btn .btn_2 p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
